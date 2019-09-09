@@ -23,7 +23,9 @@ onFormSubmit = event => {
 					type = "text" 
 					value = {this.state.term}  
 					onChange = { e => this.setState({term: e.target.value.toUpperCase()})}
+					placeholder = "Type here...."
 					/>
+					<button onClick = {this.onFormSubmit}> Search </button>
 					</div>
 				</form> 
 			</div>
